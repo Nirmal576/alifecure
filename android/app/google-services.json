@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "243792873637",
+    "project_id": "alifecure",
+    "storage_bucket": "alifecure.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:243792873637:android:18d8734ffebca0faa3e54c",
+        "android_client_info": {
+          "package_name": "com.alifecure"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "243792873637-cpuq990m4hl9cq3folp8lg0h39kg3o2h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.alifecure",
+            "certificate_hash": "1ab5492d139fe3497ca0a5ea0e0e43e5c6a1ce0d"
+          }
+        },
+        {
+          "client_id": "243792873637-l9gm31f7c89smb15prjkgl9fq1qfljgq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPxBerDkHsqtk3L8bXOhtXbFL54YAXt-o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "243792873637-l9gm31f7c89smb15prjkgl9fq1qfljgq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
