@@ -29,7 +29,9 @@ class CategoryList extends Component {
   render() {
     const {category, navigation, fields, layout, widthComponent, language, t} =
       this.props;
-
+    
+     category.data = category.data.filter(c=>{return c.name != "Uncategorized"})
+   
     if (
       !fields ||
       typeof fields !== 'object' ||

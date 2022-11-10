@@ -3,7 +3,7 @@ import React from 'react';
 import {connect} from 'react-redux';
 import {DrawerActions} from '@react-navigation/native';
 
-import {ScrollView, View, Dimensions} from 'react-native';
+import {ScrollView, View, Dimensions,Text} from 'react-native';
 
 import {ThemedView, Header} from 'src/components';
 import {IconHeader, Logo, CartIcon} from 'src/containers/HeaderComponent';
@@ -88,6 +88,7 @@ class HomeScreen extends React.Component {
       const {dispatch} = this.props;
       // Fetch setting
       let settings = await fetchSetting();
+      console.log(settings)
       const {configs, templates, ...rest} = settings;
       dispatch(
         fetchSettingSuccess({
@@ -103,6 +104,7 @@ class HomeScreen extends React.Component {
 
   renderContainer(config) {
     const Container = containers[config.type];
+    
     if (!Container) {
       return null;
     }
@@ -132,7 +134,7 @@ class HomeScreen extends React.Component {
               />
             ) : null
           }
-          centerComponent={<Logo />}
+          centerComponent={<View style={{flexDirection:'row',justifyContent:'center',alignItems:'center'}}><Text style={{fontSize:24,fontWeight:'bold'}}>ALIFECURE</Text></View>}
           rightComponent={<CartIcon />}
         />
         <ScrollView

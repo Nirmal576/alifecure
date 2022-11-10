@@ -22,7 +22,6 @@ class Products extends React.Component {
       widthComponent,
       navigationType,
     } = this.props;
-    console.log(data)
     if (
       !fields ||
       typeof fields !== 'object' ||

@@ -31,20 +31,20 @@ class GetStartSwiper extends React.Component {
 
     const data = [
       {
-        image: require('src/assets/images/getting-start/get-start-1.png'),
-        title: t('getting:text_title_1'),
-        subtitle: t('getting:text_subtitle_1'),
+        image: {uri:"https://alifecure.com/wp-content/uploads/2022/10/bg-banner22020.jpg"},
+        title: "Shop Smart",
+        subtitle: "Best Products at Best Price",
       },
-      {
-        image: require('src/assets/images/getting-start/get-start-2.png'),
-        title: t('getting:text_title_2'),
-        subtitle: t('getting:text_subtitle_2'),
-      },
-      {
-        image: require('src/assets/images/getting-start/get-start-3.png'),
-        title: t('getting:text_title_3'),
-        subtitle: t('getting:text_subtitle_3'),
-      },
+      // {
+      //   image: require('src/assets/images/getting-start/get-start-2.png'),
+      //   title: t('getting:text_title_2'),
+      //   subtitle: t('getting:text_subtitle_2'),
+      // },
+      // {
+      //   image: require('src/assets/images/getting-start/get-start-3.png'),
+      //   title: t('getting:text_title_3'),
+      //   subtitle: t('getting:text_subtitle_3'),
+      // },
     ];
     return (
       <>
